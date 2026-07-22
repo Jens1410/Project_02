@@ -1,0 +1,13 @@
+# MkDocs Build-Ergebnisse
+site/
+# Python
+__pycache__
+venv/
+.venv/
+# Betriebssystem
+.DS_Store
+Thumbs.db
+# Editor
+.vscode/
+.idea/
+*.swp

@@ -1,10 +1,10 @@
 # Inhalt 
-[Überschriften](TASK_01.md/Überschrift 1)  
-[Listen](Listen in Markdown)  
-[Zitate](Zitate in Markdown)  
+[Überschriften](#1)  
+[Listen](#Listen%20in%20Markdown)  
+[Zitate](#Zitate%20in%20Markdown)  
 [Ankerlink](#Ankerlink)
 
-# Überschrift 1
+# Ueberschrift {#1}
 ## Überschrift 2
 ### Überschrift 3
 #### Überschrift 4
