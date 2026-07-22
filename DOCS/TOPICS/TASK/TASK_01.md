@@ -1,6 +1,8 @@
 # Inhalt 
-[Überschriften](Überschrift 1)  
-[Listen](Listen in Markdown)
+[Überschriften](TASK_01.md/Überschrift 1)  
+[Listen](Listen in Markdown)  
+[Zitate](Zitate in Markdown)  
+[Ankerlink](#Ankerlink)
 
 # Überschrift 1
 ## Überschrift 2
@@ -9,10 +11,11 @@
 ##### Überschrift 5
 ###### Überschrift 6
 Fließtext Zeile 1  
-*Listenpunkt 1*  
-**Listenpunkt 2**  
-***\*Kursiv und Fett****
 
+# Inline-Formatierungen
+*Text kursiv*  
+**Text fett**  
+***\*Kursiv und Fett****
 Dieser text ist *\*\*kursiv mit zwei Sternen (vorn und hinten)***
 
 # Listen in Markdown
@@ -59,7 +62,6 @@ Das ist ein Code-Block durch Einrückung per [Tab]
         </head>
     </html>  
 
-
 Das ist ein Code-Block per Backsticks \`\`\`:
 ```
 { 
@@ -101,7 +103,7 @@ Das ist ein Code in einer nummerierten Liste:
 | **Zeile 1**  |Das ist ein Text 2/1|Das ist ein Text 3/1|Das ist ein Text 4/1|Das ist ein Text in  5/1|
 | **Zeile 2**  |              |              |              |              |
 | **Zeile 3**  |              |              |              |              |
-
+<a name="Ankerlink"></a>
 | **Spalte 1** |       **Spalte 2**      |       **Spalte 3**      |       **Spalte 4**      |            **Spalte 5** |
 |:------------:|:-----------------------:|:-----------------------:|:-----------------------:|------------------------:|
 | **Zeile 1**  | Das ist ein Text in 2/1 | Das ist ein Text in 3/1 | Das ist ein Text in 4/1 | Das ist ein Text in 5/1 |
@@ -113,3 +115,10 @@ Das ist ein Code in einer nummerierten Liste:
 | **Zeile 1**  | Das ist ein *Text* | Das ist ein `Text` in 3/1 | Das ist ein Text in 4/1 | Text in 5/1 
 | **Zeile 2**  | Das ist ein Text in 2/2 | Das ist ein Text in 3/2 | Das ist ein Text in 4/2 | Das ist ein Te 
 | **Zeile 3**  | Das ist ein Text in 2/3 | Das ist ein Text in 3/3 | Das ist ein Text in 4/3 | Das ist ein Text in 5/3 
+
+# Links
+[Überschriften](Aus dem Generator)  
+[Listen](Listen in Markdown)
+
+# Bilder
+![Ein Kürbis in unserem Garten](Bild.jpg)
