@@ -2,6 +2,7 @@ site_name: Übung
 site_description: Eine einfache Übung für MkDocs
 site_author: ich
 docs_dir: DOCS
+site_url: https://jens1410.github.io/Project_02/
 
 theme:
   name: material
