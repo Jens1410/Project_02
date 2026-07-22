@@ -1,6 +1,7 @@
 site_name: Übung
 site_description: Eine einfache Übung für MkDocs
 site_author: ich
+docs_dir: DOCS
 
 theme:
   name: material
